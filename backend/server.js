@@ -30,3 +30,7 @@ app.get('/api/products/:id', async(req, res)=>{
 //sever application listening to...
 const port = process.env.PORT || 8001;
 app.listen(port, ()=>console.log(`listening to http://127.0.0.1:${port}`));
+
+
+
+module.exports = { app }

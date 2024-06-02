@@ -9,15 +9,15 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <WelcomePage/>
+    element: <WelcomePage />
   },
   {
     path: '/home',
-    element: <App/>
+    element: <App />
   },
   {
     path: 'product/:id',
-    element: <ProductPage/>
+    element: <ProductPage />
   },
   {
     path: '*',
