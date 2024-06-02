@@ -40,11 +40,11 @@ function App() {
   async function fetchProducts() {
     try {
       let fetchURI;
-      (searchInput!=='' || filters.size!=='' || filters.color!=='' || filters.brand!=='' || filters.pricerange!=='')?
-        fetchURI = `https://anandiwears-backend.vercel.app/api/products?search=${searchInput}&size=${filters.size}&color=${filters.color}&brand=${filters.brand}&pricerange=${filters.pricerange}` : 
+      (searchInput !== '' || filters.size !== '' || filters.color !== '' || filters.brand !== '' || filters.pricerange !== '') ?
+        fetchURI = `https://anandiwears-backend.vercel.app/api/products?search=${searchInput}&size=${filters.size}&color=${filters.color}&brand=${filters.brand}&pricerange=${filters.pricerange}` :
         fetchURI = `https://anandiwears-backend.vercel.app/api/products`;
       console.log(fetchURI);
-      
+
       let result = await fetch(fetchURI);
       let data = await result.json();
       setProduct_list(data);
@@ -58,7 +58,7 @@ function App() {
   // JSX CONTENT
   return (
     <>
-      <Navbar searchInput={searchInput} setSearchInput={setSearchInput} fetchProducts={fetchProducts}/>
+      <Navbar searchInput={searchInput} setSearchInput={setSearchInput} fetchProducts={fetchProducts} />
 
 
       <main>
@@ -73,33 +73,39 @@ function App() {
         <div id="main-seperator"></div>
 
         <div className="product-section">
-          <div id="item-count" style={{ width: "100%", fontSize: "18px", color: "grey" }}>
-            {product_list.length} Items
-          </div>
+          {product_list ? (
+            <>
+              <div id="item-count" style={{ width: "100%", fontSize: "18px", color: "grey" }}>
+                {product_list.length} Items
+              </div>
 
-          {/* product card iteration */}
-          {product_list.map(product => (
-            <NavLink to={`/product/${product.prod_id}`} className="product-card" key={product.prod_id}>
-              <div className="product-image-container">
-                <img className="product-image" src={product.prod_thumb} alt="" />
-              </div>
-              <div className="product-info">
-                <div className="product-brand">{product.prod_brand}</div>
-                <div className="product-name">{product.prod_name}</div>
-                <div className="product-size">
-                  {product.prod_sizes.map((prod_size, index) => (
-                    <div className="available-size" key={index}>{prod_size}</div>
-                  ))}
-                </div>
-                <div className="product-color">
-                  {product.prod_colors.map((prod_color, index) => (
-                    <div className="color" key={index} style={{ backgroundColor: prod_color }}></div>
-                  ))}
-                </div>
-                <div className="product-price">Rs. {product.prod_price}</div>
-              </div>
-            </NavLink>
-          ))}
+              {/* product card iteration */ }
+              {product_list.map(product => (
+                <NavLink to={`/product/${product.prod_id}`} className="product-card" key={product.prod_id}>
+                  <div className="product-image-container">
+                    <img className="product-image" src={product.prod_thumb} alt="" />
+                  </div>
+                  <div className="product-info">
+                    <div className="product-brand">{product.prod_brand}</div>
+                    <div className="product-name">{product.prod_name}</div>
+                    <div className="product-size">
+                      {product.prod_sizes.map((prod_size, index) => (
+                        <div className="available-size" key={index}>{prod_size}</div>
+                      ))}
+                    </div>
+                    <div className="product-color">
+                      {product.prod_colors.map((prod_color, index) => (
+                        <div className="color" key={index} style={{ backgroundColor: prod_color }}></div>
+                      ))}
+                    </div>
+                    <div className="product-price">Rs. {product.prod_price}</div>
+                  </div>
+                </NavLink>
+              ))}
+            </>
+          ) : (
+            <div className="loader"></div>
+          )}
         </div>
 
       </main>
