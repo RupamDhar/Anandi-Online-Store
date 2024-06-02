@@ -1,0 +1,741 @@
+[
+  {
+    "prod_id": "9K1330I",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/rz56kFYl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/rz56kFY.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["indianred"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["indianred"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330H",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/UMfCiill.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/UMfCiil.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["cornflowerblue"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["cornflowerblue"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330G",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/M3EY3gjl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/M3EY3gj.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["darkblue"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["darkblue"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330F",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/XiiGS4Ol.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/XiiGS4O.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["pink"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["pink"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330E",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/zx2pU5Bl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/zx2pU5B.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["tan"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["tan"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330D",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/wEmMDRtl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/wEmMDRt.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["darkgoldenrod"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["darkgoldenrod"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330C",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/6xqpF38l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/6xqpF38.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["dodgerblue"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["dodgerblue"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330B",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/YBN3oTrl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/YBN3oTr.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["crimson"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["crimson"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1699",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/7st3ck3l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/7st3ck3.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Cotton Straight Cut Kurti",
+    "prod_sizes": ["XL", "XXL", "3XL"],
+    "prod_colors": ["palevioletred"],
+    "prod_price": 699,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["palevioletred"]
+      },
+      {
+        "size": "XXL",
+        "colors": ["palevioletred"]
+      },
+      {
+        "size": "3XL",
+        "colors": ["palevioletred"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1330A",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/3YyMaGYl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/3YyMaGY.jpeg",
+      "https://i.imgur.com/ciONPu9.jpeg"
+    ],
+    "prod_brand": "AP",
+    "prod_name": "AP Cotton Straight Cut Round neck Kurti",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["black", "orange"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["black", "orange"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K2995",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/d3x8xGRl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/d3x8xGR.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Cotton Straight Cut Round neck Kurti with Pant Set",
+    "prod_sizes": ["3XL", "4XL", "5XL"],
+    "prod_colors": ["palevioletred"],
+    "prod_price": 995,
+    "prod_variants": [
+      {
+        "size": "3XL",
+        "colors": ["palevioletred"]
+      },
+      {
+        "size": "4XL",
+        "colors": ["palevioletred"]
+      },
+      {
+        "size": "5XL",
+        "colors": ["palevioletred"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K2799",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/YRF92J4l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/YRF92J4.jpeg",
+      "https://i.imgur.com/jUYszvx.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Reyon Straight Cut Kurti with Pant set",
+    "prod_sizes": ["L", "XL", "XXL"],
+    "prod_colors": ["darkolivegreen"],
+    "prod_price": 799,
+    "prod_variants": [
+      {
+        "size": "L",
+        "colors": ["darkolivegreen"]
+      },
+      {
+        "size": "XL",
+        "colors": ["darkolivegreen"]
+      },
+      {
+        "size": "XXL",
+        "colors": ["darkolivegreen"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K21095",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/C2CrXcKl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/C2CrXcK.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Cotton Straight Cut V-neck Kurti with Pant Set",
+    "prod_sizes": ["3XL", "4XL", "5XL"],
+    "prod_colors": ["thistle"],
+    "prod_price": 1095,
+    "prod_variants": [
+      {
+        "size": "3XL",
+        "colors": ["thistle"]
+      },
+      {
+        "size": "4XL",
+        "colors": ["thistle"]
+      },
+      {
+        "size": "5XL",
+        "colors": ["thistle"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1765",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/7yM1388l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/7yM1388.jpeg"
+    ],
+    "prod_brand": "Arriba",
+    "prod_name": "Arriba Cotton Round Neck Kurti",
+    "prod_sizes": ["3XL", "4XL", "5XL"],
+    "prod_colors": ["#022b42"],
+    "prod_price": 765,
+    "prod_variants": [
+      {
+        "size": "3XL",
+        "colors": ["#022b42"]
+      },
+      {
+        "size": "4XL",
+        "colors": ["#022b42"]
+      },
+      {
+        "size": "5XL",
+        "colors": ["#022b42"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K2945",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/fTjDPY8l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/fTjDPY8.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Cotton Straight Cut V-neck Kurti with Pant Set",
+    "prod_sizes": ["L", "XL", "XXL", "3XL"],
+    "prod_colors": ["hotpink"],
+    "prod_price": 945,
+    "prod_variants": [
+      {
+        "size": "L",
+        "colors": ["hotpink"]
+      },
+      {
+        "size": "XL",
+        "colors": ["hotpink"]
+      },
+      {
+        "size": "XXL",
+        "colors": ["hotpink"]
+      },
+      {
+        "size": "3XL",
+        "colors": ["hotpink"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K1499",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/fPyikIZl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/fPyikIZ.jpeg",
+      "https://i.imgur.com/7QMChIZ.jpeg",
+      "https://i.imgur.com/B9e0y76.jpeg",
+      "https://i.imgur.com/XDMBiUa.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Reyon Straight Cut Kurti",
+    "prod_sizes": ["XXL"],
+    "prod_colors": ["cadetblue", "palevioletred", "slategrey", "maroon"],
+    "prod_price": 499,
+    "prod_variants": [
+      {
+        "size": "XXL",
+        "colors": ["cadetblue", "palevioletred", "slategrey", "maroon"]
+      }
+    ]
+  },
+  {
+    "prod_id": "9K31295",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/ypIu84dl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/ypIu84d.jpeg"
+    ],
+    "prod_brand": "Koyena",
+    "prod_name": "Koyena Cotton Straight Cut Kurti with Pant Dupatta Set (Three piece)",
+    "prod_sizes": ["L", "XL", "XXL"],
+    "prod_colors": ["palevioletred"],
+    "prod_price": 1295,
+    "prod_variants": [
+      {
+        "size": "L",
+        "colors": ["palevioletred"]
+      },
+      {
+        "size": "XL",
+        "colors": ["palevioletred"]
+      },
+      {
+        "size": "XXL",
+        "colors": ["palevioletred"]
+      }
+    ]
+  },
+  {
+    "prod_id": "P330210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/I0KaNWzl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/I0KaNWz.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit Rayon Printed Palazzo",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["#022b42"],
+    "prod_price": 330,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["#022b42"]
+      }
+    ]
+  },
+  {
+    "prod_id": "P2752105242",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/EwcKUtVl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/EwcKUtV.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit Rayon Printed Palazzo",
+    "prod_sizes": ["XL"],
+    "prod_colors": ["#23afc2"],
+    "prod_price": 275,
+    "prod_variants": [
+      {
+        "size": "XL",
+        "colors": ["#23afc2"]
+      }
+    ]
+  },
+  {
+    "prod_id": "P2752105241",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/GDdO7oVl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/GDdO7oV.jpeg",
+      "https://i.imgur.com/zcf3jaB.jpeg",
+      "https://i.imgur.com/uEuEMtL.jpeg",
+      "https://i.imgur.com/4mSQHuf.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit Rayon Printed Palazzo",
+    "prod_sizes": ["L", "XL"],
+    "prod_colors": ["#23afc2","#f5ad11","#24465c","#ddebc5"],
+    "prod_price": 275,
+    "prod_variants": [
+      {
+        "size": "L",
+        "colors": ["#23afc2","#f5ad11","#24465c","#ddebc5"]
+      },
+      {
+        "size": "XL",
+        "colors": ["#23afc2","#f5ad11","#24465c"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN4852105242",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/vuvuZUfl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/vuvuZUf.jpeg",
+      "https://i.imgur.com/PsdhAar.jpeg",
+      "https://i.imgur.com/pEqo0uf.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit cotton alan cut sleeveless nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["maroon","#12192e","red"],
+    "prod_price": 485,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["maroon","#12192e","red"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN4852105241",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/G1Laikhl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/G1Laikh.jpeg",
+      "https://i.imgur.com/mX7wHKT.jpeg",
+      "https://i.imgur.com/h7LEzlH.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit cotton alan cut sleeveless nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["chocolate","skyblue","yellow"],
+    "prod_price": 485,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["chocolate","skyblue","yellow"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN3552105242",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/aoScwF7l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/aoScwF7.jpeg",
+      "https://i.imgur.com/Noqg8mL.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit round neck body cut half sleeved nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["#a6b79c","#d7bd81"],
+    "prod_price": 355,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["#a6b79c","#d7bd81"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN480210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/WEum0EEl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/WEum0EE.jpeg",
+      "https://i.imgur.com/sYv1aHy.jpeg",
+      "https://i.imgur.com/ZqjTc3Q.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit cotton alan cut half sleeved nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["black","#022b42","#4e0000"],
+    "prod_price": 480,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["black","#022b42","#4e0000"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN340210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/o2ncUb7l.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/o2ncUb7.jpeg",
+      "https://i.imgur.com/2LyOZkH.jpeg",
+      "https://i.imgur.com/Qh7qeTq.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit cotton round neck half sleeved nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["#221c1f","#9c9e9c","#7e7570"],
+    "prod_price": 340,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["#221c1f","#9c9e9c","#7e7570"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN520210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/CxpIXETl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/CxpIXET.jpeg",
+      "https://i.imgur.com/rUbzSZq.jpeg",
+      "https://i.imgur.com/90ynAUN.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit cotton body cut half sleeved nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["#9ebad5","#dbdad5","#bacecb"],
+    "prod_price": 520,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["#9ebad5","#dbdad5","#bacecb"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN299210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/qVXTuuJl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/qVXTuuJ.jpeg",
+      "https://i.imgur.com/eRZuRCP.jpeg",
+      "https://i.imgur.com/g7geeNA.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Satyajit cotton body cut half sleeved nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["skyblue","pink","yellow"],
+    "prod_price": 299,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["skyblue","pink","yellow"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN499210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/V7ibpgEl.jpeg",
+    "prod_images": [
+      "https://i.imgur.com/V7ibpgE.jpeg",
+      "https://i.imgur.com/lc9CbA6.jpeg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Cotton round neck sleeveless nightwear",
+    "prod_sizes": ["Free-size"],
+    "prod_colors": ["skyblue","pink"],
+    "prod_price": 499,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": ["skyblue","pink"]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN320210524",
+    "in_stock": true,
+    "prod_thumb": "https://i.imgur.com/FrLc4mXl.jpg",
+    "prod_images": [
+      "https://i.imgur.com/FrLc4mX.jpg",
+      "https://i.imgur.com/XADbM2a.jpg",
+      "https://i.imgur.com/AvG6Fhx.jpg"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Cotton round neck sleeveless nightwear",
+    "prod_sizes": [
+      "Free-size"
+    ],
+    "prod_colors": [
+      "#022b42",
+      "black",
+      "brown"
+    ],
+    "prod_price": 320,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": [
+          "#022b42",
+          "black",
+          "brown"
+        ]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN375210524",
+    "in_stock": true,
+    "prod_thumb": "https://images.unsplash.com/photo-1716389035218-14f37b2fdab4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D",
+    "prod_images": [
+      "https://images.unsplash.com/photo-1716389035218-14f37b2fdab4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1716389035206-d0418bd960b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1716389035212-6d82e4e84dfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Cotton round neck sleeveless nightwear",
+    "prod_sizes": [
+      "Free-size"
+    ],
+    "prod_colors": [
+      "skyblue",
+      "orange",
+      "red"
+    ],
+    "prod_price": 375,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": [
+          "skyblue",
+          "orange",
+          "red"
+        ]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN315210524",
+    "in_stock": true,
+    "prod_thumb": "https://images.unsplash.com/photo-1716387879614-0216d56e6f3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8fA%3D%3D",
+    "prod_images": [
+      "https://images.unsplash.com/photo-1716387879614-0216d56e6f3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1716387879843-dbdd638513d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Nnx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1716387879621-3d1b272e5565?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Cotton round neck sleeveless nightwear",
+    "prod_sizes": [
+      "Free-size"
+    ],
+    "prod_colors": [
+      "#e34242",
+      "#33A1C9",
+      "brown"
+    ],
+    "prod_price": 315,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": [
+          "#e34242",
+          "#33A1C9",
+          "brown"
+        ]
+      }
+    ]
+  },
+  {
+    "prod_id": "CN3552105241",
+    "in_stock": true,
+    "prod_thumb": "https://images.unsplash.com/photo-1716386946417-95376d0a596c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8N3x8fGVufDB8fHx8fA%3D%3D",
+    "prod_images": [
+      "https://images.unsplash.com/photo-1716386946417-95376d0a596c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8N3x8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1716386946371-a34a7a2e2666?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8OHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "prod_brand": "Satyajit",
+    "prod_name": "Cotton alan cut half sleeved nightwear",
+    "prod_sizes": [
+      "Free-size"
+    ],
+    "prod_colors": [
+      "black",
+      "red"
+    ],
+    "prod_price": 355,
+    "prod_variants": [
+      {
+        "size": "Free-size",
+        "colors": [
+          "black",
+          "red"
+        ]
+      }
+    ]
+  }
+]
