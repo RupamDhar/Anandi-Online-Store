@@ -15,6 +15,7 @@ const client = new MongoClient(uri, {
 async function getAllProducts() {
     try {
         await client.connect();
+        console.log(uri);
         console.log('database.js 12:    connected to db');
 
         const result = await client.db(database).collection('Products').find({}).toArray();

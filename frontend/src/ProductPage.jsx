@@ -13,7 +13,7 @@ const ProductPage = () => {
     useEffect(() => {
         async function getProduct() {
             try {
-                const result = await fetch(`http://192.168.1.18:9000/api/products/${id}`);
+                const result = await fetch(`https://anandiwears-backend.vercel.app/api/products/${id}`);
                 // console.log('ProdPage.jsx 15:   ', result);
                 const data = await result.json();
                 // console.log(data[0]);

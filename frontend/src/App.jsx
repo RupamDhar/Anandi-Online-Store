@@ -41,8 +41,8 @@ function App() {
     try {
       let fetchURI;
       (searchInput!=='' || filters.size!=='' || filters.color!=='' || filters.brand!=='' || filters.pricerange!=='')?
-        fetchURI = `http://192.168.1.18:9000/api/products?search=${searchInput}&size=${filters.size}&color=${filters.color}&brand=${filters.brand}&pricerange=${filters.pricerange}` : 
-        fetchURI = `http://192.168.1.18:9000/api/products`;
+        fetchURI = `https://anandiwears-backend.vercel.app/api/products?search=${searchInput}&size=${filters.size}&color=${filters.color}&brand=${filters.brand}&pricerange=${filters.pricerange}` : 
+        fetchURI = `https://anandiwears-backend.vercel.app/api/products`;
       console.log(fetchURI);
       
       let result = await fetch(fetchURI);
