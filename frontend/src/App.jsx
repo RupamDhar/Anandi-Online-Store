@@ -104,7 +104,9 @@ function App() {
               ))}
             </>
           ) : (
-            <div className="loader" style={{marginTop:'200px'}}></div>
+            <div className="loader" style={{marginTop:'200px'}}>
+              <br /><br /><br /> Loading...
+            </div>
           )}
         </div>
 

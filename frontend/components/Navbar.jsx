@@ -32,13 +32,18 @@ const Navbar = ({ setSearchInput, fetchProducts }) => {
 
     //searching from searchbar
     function handleSearch(event) {
-        if (event.key === 'Enter') {
+        if (event.key === 'Enter' || event.target.classList.contains("fa-magnifying-glass")) {
             fetchProducts();
         }
+        console.log(event.target.classList.contains("fa-magnifying-glass"));
     }
 
     function handleInputChange(event) {
         setSearchInput(event.target.value);
+    }
+    function searchClearHandler() {
+        console.log('clicked');
+        document.getElementById('search-bar').value = '';
     }
 
     function showContactDetails() {
@@ -74,6 +79,7 @@ const Navbar = ({ setSearchInput, fetchProducts }) => {
                         <div id="search-bar-container">
                             <i id="search-icon" className="fa-solid fa-magnifying-glass"></i>
                             <input id="search-bar" type="text" placeholder="Search item..." onKeyDown={handleSearch} onChange={handleInputChange} />
+                            <div className='x-mark' onClick={searchClearHandler}>x</div>
                         </div>
                         <div className="search-btn">
                             <i className="fa-solid fa-magnifying-glass" style={{ color: 'white' }} onClick={handleSearch}></i>
