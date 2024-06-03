@@ -45,22 +45,26 @@ function App() {
       (searchInput !== '' || filters.size !== '' || filters.color !== '' || filters.brand !== '' || filters.pricerange !== '') ?
         fetchURI = `https://anandiwears-backend.vercel.app/api/products?search=${searchInput}&size=${filters.size}&color=${filters.color}&brand=${filters.brand}&pricerange=${filters.pricerange}` :
         fetchURI = `https://anandiwears-backend.vercel.app/api/products`;
-      console.log(fetchURI);
-
-      let result = await fetch(fetchURI);
-      let data = await result.json();
-      setProduct_list(data);
+        console.log(fetchURI);
+        setProduct_list([]);
+  
+        let result = await fetch(fetchURI);
+        let data = await result.json();
+        setProduct_list(data);
+      }
+      catch (error) {
+        console.log(error);
+      }
+      finally {
+        setIsFetching(false);
+      }
     }
-    catch (error) {
-      console.log(error);
-    }
-    setIsFetching(false);
-  }
-  useEffect(()=>{
-    if(isFetching){
-      setProduct_list([]);
-    }
-  }, [isFetching]);
+    //sets product_list empty so that loader is displayed while fetching
+    useEffect(()=>{
+      if(isFetching){
+        setProduct_list([]);
+      }
+    }, [isFetching]);
 
 
   // JSX CONTENT
