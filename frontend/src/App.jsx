@@ -38,6 +38,7 @@ function App() {
 
   //product fetch method
   async function fetchProducts() {
+    setProduct_list([]);
     try {
       let fetchURI;
       (searchInput !== '' || filters.size !== '' || filters.color !== '' || filters.brand !== '' || filters.pricerange !== '') ?
