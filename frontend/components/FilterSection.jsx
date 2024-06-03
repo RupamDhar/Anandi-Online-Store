@@ -8,10 +8,10 @@ const FilterSection = ({ setSizeFilters, setColorFilters, setBrandFilters, setPr
   const brandFilters = ['Arriba', 'Comfort Lady', 'FITS&FAB', 'Gemini', 'Koyena', 'Priincezz', 'Satyajit'];
   const priceRangeFilters = ['199-399', '400-599', '600-799', '800-999', '1000-1299'];
   const colorFilters = [
-    'maroon', 'red', 'darkgoldenrod', 'tan', 'orange', 'yellow', 'indianred', 'dodgerblue',
-    'blue', 'darkblue', 'olive', 'darkolivegreen', 'lightgray',
-    'cadetblue', 'darkseagreen', 'crimson', 'palevioletred', 'thistle', 'pink', 'hotpink',
-    'cornflowerblue', 'navajowhite', 'lightsteelblue', 'midnightblue', 'slategrey',
+    'maroon', 'red', 'darkgoldenrod', "orangered", 'tan', 'orange', 'yellow', 'indianred', 'dodgerblue', "teal",
+    'blue', 'darkblue', 'olive', 'darkolivegreen', 'lightgray', 'lightsalmon', 'powderblue', "darkmagenta",
+    'cadetblue', 'darkseagreen', 'crimson', 'palevioletred', 'thistle', 'pink', 'hotpink', "saddlebrown",
+    'cornflowerblue', 'navajowhite', 'lightsteelblue', 'midnightblue', 'slategrey', "mediumaquamarine",
     '#022b42', '#24465c'
   ];
 
@@ -97,18 +97,6 @@ const FilterSection = ({ setSizeFilters, setColorFilters, setBrandFilters, setPr
             ))}
           </details>
 
-          {/* Color filters */}
-          <details className="filters colors" open>
-            <summary className="filter-headings">Colors</summary>
-            {colorFilters.map((color, index) => (
-              <div className="filter-options" key={index}>
-                <input id={color} type="checkbox" className="checkbox" value={color} name="checkbox" onChange={colorFilterHandler} />
-                <div className="color filter-color" style={{ backgroundColor: color }}></div>
-                <label htmlFor={color}>{color}</label>
-              </div>
-            ))}
-          </details>
-
           {/* Brand filters */}
           <details className="filters brand" open>
             <summary className="filter-headings">Brands</summary>
@@ -131,6 +119,17 @@ const FilterSection = ({ setSizeFilters, setColorFilters, setBrandFilters, setPr
             ))}
           </details>
 
+          {/* Color filters */}
+          <details className="filters colors" open>
+            <summary className="filter-headings">Colors</summary>
+            {colorFilters.map((color, index) => (
+              <div className="filter-options" key={index}>
+                <input id={color} type="checkbox" className="checkbox" value={color} name="checkbox" onChange={colorFilterHandler} />
+                <div className="color filter-color" style={{ backgroundColor: color }}></div>
+                <label htmlFor={color}>{color}</label>
+              </div>
+            ))}
+          </details>
         </div>
       </div>
     </>
