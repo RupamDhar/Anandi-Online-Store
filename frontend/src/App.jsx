@@ -73,7 +73,7 @@ function App() {
         <div id="main-seperator"></div>
 
         <div className="product-section">
-          {product_list ? (
+          {product_list.length ? (
             <>
               <div id="item-count" style={{ width: "100%", fontSize: "18px", color: "grey" }}>
                 {product_list.length} Items
@@ -104,7 +104,7 @@ function App() {
               ))}
             </>
           ) : (
-            <div className="loader"></div>
+            <div className="loader" style={{marginTop:'200px'}}></div>
           )}
         </div>
 
