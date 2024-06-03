@@ -12,7 +12,7 @@ function App() {
   console.log(query.get('search'));
 
   const [product_list, setProduct_list] = useState([]);   //actual product list fetched from server
-  const [isFetching, setIsFetching] = useState(false);     //to display loader if fetching in progress
+  const [isFetching, setIsFetching] = useState(true);     //to display loader if fetching in progress
   const [searchInput, setSearchInput] = useState(query.get('search') || '');     //search input from searchbar or url query
   console.log(searchInput);
 
