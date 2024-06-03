@@ -334,7 +334,6 @@ label {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
   align-content: flex-start;
   overflow: scroll;
   gap: 20px;
