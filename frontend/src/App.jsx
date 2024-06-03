@@ -12,6 +12,7 @@ function App() {
   console.log(query.get('search'));
 
   const [product_list, setProduct_list] = useState([]);   //actual product list fetched from server
+  const [isFetching, setIsFetching] = useState(false);     //to display loader if fetching in progress
   const [searchInput, setSearchInput] = useState(query.get('search') || '');     //search input from searchbar or url query
   console.log(searchInput);
 
@@ -38,8 +39,8 @@ function App() {
 
   //product fetch method
   async function fetchProducts() {
-    setProduct_list([]);
     try {
+      setIsFetching(true);
       let fetchURI;
       (searchInput !== '' || filters.size !== '' || filters.color !== '' || filters.brand !== '' || filters.pricerange !== '') ?
         fetchURI = `https://anandiwears-backend.vercel.app/api/products?search=${searchInput}&size=${filters.size}&color=${filters.color}&brand=${filters.brand}&pricerange=${filters.pricerange}` :
@@ -53,7 +54,13 @@ function App() {
     catch (error) {
       console.log(error);
     }
+    setIsFetching(false);
   }
+  useEffect(()=>{
+    if(isFetching){
+      setProduct_list([]);
+    }
+  }, [isFetching]);
 
 
   // JSX CONTENT
