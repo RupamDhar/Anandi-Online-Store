@@ -35,7 +35,6 @@ const Navbar = ({ setSearchInput, fetchProducts }) => {
         if (event.key === 'Enter' || event.target.classList.contains("fa-magnifying-glass")) {
             fetchProducts();
         }
-        console.log(event.target.classList.contains("fa-magnifying-glass"));
     }
 
     function handleInputChange(event) {
