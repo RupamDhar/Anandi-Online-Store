@@ -1,6 +1,6 @@
 # Anandi
 
-Anandi is a full-stack web application designed to give users a platform to explore products from the ease of their phone or computer made possible with its responsiveness. Users can explore products of their choice by navigating to a particular category and can open each product and see what they have to offer.
+Anandi is a MERN-stack web application designed to give users a platform to explore products from the ease of their phone or computer made possible with its responsiveness. Users can explore products of their choice by navigating to a particular category and can open each product and see what they have to offer.
 
 ## Features
 
