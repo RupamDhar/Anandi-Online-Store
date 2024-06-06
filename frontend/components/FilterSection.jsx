@@ -8,6 +8,7 @@ const FilterSection = ({ setSizeFilters, setColorFilters, setBrandFilters, setPr
   const brandFilters = ['Arriba', 'Comfort Lady', 'FITS&FAB', 'Gemini', 'Koyena', 'Priincezz', 'Satyajit'];
   const priceRangeFilters = ['199-399', '400-599', '600-799', '800-999', '1000-1299'];
   const colorFilters = [
+    'white','black','darkslategray', 'mediumvioletred',
     'maroon', 'red', 'darkgoldenrod', "orangered", 'tan', 'orange', 'yellow', 'indianred', 'dodgerblue', "teal",
     'blue', 'darkblue', 'olive', 'darkolivegreen', 'lightgray', 'lightsalmon', 'powderblue', "darkmagenta",
     'cadetblue', 'darkseagreen', 'crimson', 'palevioletred', 'thistle', 'pink', 'hotpink', "saddlebrown",
