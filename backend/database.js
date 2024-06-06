@@ -15,7 +15,6 @@ const client = new MongoClient(uri, {
 async function getAllProducts() {
     try {
         await client.connect();
-        console.log(uri);
         console.log('database.js 12:    connected to db');
 
         const result = await client.db(database).collection('Products').find({}).toArray();
@@ -32,9 +31,10 @@ async function getAllProducts() {
 
 //returning filtered products
 async function getFilteredProducts(filters) {
-    console.log('database.js 36:    ', filters);
+    console.log('database.js 36:    ', filters, filters.search.split(' '));
 
-    /* const query = {
+    /* below query objects form AND conditions i.e. prod_name AND prod_sizes AND prod_brand etc
+    const query = {
         prod_name: { $regex: "satyajit", $options: "i" },
         prod_sizes: { $in: ["L", "XL"] },
         prod_colors: { $in: ["red", "black"] },
@@ -47,7 +47,7 @@ async function getFilteredProducts(filters) {
     //above->format for creating mongodb filters
     //below->creating filters
     const query = {}
-    if (filters.search !== '') query.prod_name = { $regex: filters.search, $options: 'i' };
+    if (filters.search !== '') query.meta_desc = { $all: filters.search.toLowerCase().split(' ') };
     if (filters.size !== '') query.prod_sizes = { $in: filters.size.split('+') };
     if (filters.color !== '') query.prod_colors = { $in: filters.color.split('+') };
     if (filters.brand !== '') query.prod_brand = { $in: filters.brand.split('+') };
@@ -58,6 +58,7 @@ async function getFilteredProducts(filters) {
         });
         query.$or = priceConditions;
     }
+    console.log('database.js 66:    ', query);
 
     try {
         await client.connect();
@@ -76,10 +77,10 @@ async function getFilteredProducts(filters) {
 async function getProduct(productID) {
     try {
         await client.connect();
-        console.log('database.js 27:    connected to db');
+        console.log('database.js 80:    connected to db');
 
         const result = await client.db(database).collection('Products').find({ prod_id: productID }).toArray();
-        console.log('database.js 30:    ', result);
+        // console.log('database.js 83:    ', result);
         return result;
     }
     catch (error) {

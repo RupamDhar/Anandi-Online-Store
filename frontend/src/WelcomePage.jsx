@@ -4,13 +4,6 @@ import './WelcomePage.css'
 const WelcomePage = () => {
 
 
-    function categoryClickHandler(event) {
-        const category = event.currentTarget.querySelector('.category-text').innerText.replace(/s$/, '');
-        console.log(category);
-        window.location.href = `/home?search=${category}`;
-    }
-
-
     return (
         <div className="welcome-page">
             {/* hero section */}
@@ -35,26 +28,26 @@ const WelcomePage = () => {
                 <div className="welcome-category-section">
                     <div className="welcome-category-title">Shop for</div>
                     <div className="welcome-categories">
-                        <div className="welcome-category kurtis" onClick={categoryClickHandler}>
+                        <a href='/home?search=kurti' className="welcome-category kurtis">
                             <img className='category-image' src="kurti-image.jpg" alt="" />
                             <div className="category-text">Kurtis</div>
-                        </div>
-                        <div className="welcome-category leggings" onClick={categoryClickHandler}>
-                            <img className='category-image' src="nightwear-image.jpg" alt="" />
-                            <div className="category-text">Leggings</div>
-                        </div>
-                        <div className="welcome-category palazzos" onClick={categoryClickHandler}>
-                            <img className='category-image' src="nightwear-image.jpg" alt="" />
-                            <div className="category-text">Palazzos</div>
-                        </div>
-                        <div className="welcome-category housecoats" onClick={categoryClickHandler}>
-                            <img className='category-image' src="nightwear-image.jpg" alt="" />
-                            <div className="category-text">House-coats</div>
-                        </div>
-                        <div className="welcome-category nightwear" onClick={categoryClickHandler}>
+                        </a>
+                        <a href='/home?search=nightwear' className="welcome-category nightwear">
                             <img className='category-image' src="nightwear-image.jpg" alt="" />
                             <div className="category-text">Nightwears</div>
-                        </div>
+                        </a>
+                        <a href='/home?search=housecoat' className="welcome-category housecoats">
+                            <img className='category-image' src="housecoat-image.jpg" alt="" />
+                            <div className="category-text">House-coats</div>
+                        </a>
+                        <a href='/home?search=legging' className="welcome-category leggings">
+                            <img className='category-image' src="leggings-image.jpg" alt="" />
+                            <div className="category-text">Leggings</div>
+                        </a>
+                        <a href='/home?search=palazzo' className="welcome-category palazzos">
+                            <img className='category-image' src="plazo-image.jpg" alt="" />
+                            <div className="category-text">Palazzos</div>
+                        </a>
                     </div>
                 </div>
             </div>
