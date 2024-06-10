@@ -144,23 +144,23 @@
 .shop-info {
     height: fit-content;
     /* height: 428px; */
-    width: fit-content;
+    width: 40%;
     border-radius: 20px;
 }
 .shop-info-heading {
     padding-left: 12px;
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 600;
     color: #BC7575;
 }
 .shop-info-text {
     padding-left: 12px;
-    font-size: 32px;
+    font-size: 22px;
 }
 iframe {
     /* margin-left: 1%; */
-    width: 840px;
-    height: 400px;
+    width: 100%;
+    aspect-ratio: 840/400;
     border-radius: 20px;
     box-shadow: 5px 5px 5px grey;
 }
