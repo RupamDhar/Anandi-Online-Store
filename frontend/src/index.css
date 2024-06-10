@@ -88,6 +88,9 @@
      border-radius: 10px;
      box-shadow: 0 4px 8px grey;
    }
+   .welcome-category:hover {
+     scale: 1;
+   }
    .category-image {
      border-radius: 10px;
    }
