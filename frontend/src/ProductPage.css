@@ -49,6 +49,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: start;
+    align-content: flex-start;
     gap: 1%;
 }
 .product-page-image {
