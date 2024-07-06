@@ -93,7 +93,7 @@ function App() {
 
               {/* product card iteration */ }
               {product_list.map(product => (
-                <NavLink to={`/product/${product.prod_id}`} className="product-card" key={product.prod_id}>
+                <NavLink to={`/product/${product.prod_id}`} className="product-card" target='_blank' key={product.prod_id}>
                   <div className="product-image-container">
                     <img className="product-image" src={product.prod_thumb} alt="" />
                   </div>
