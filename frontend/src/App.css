@@ -370,11 +370,22 @@ label {
 }
 
 .product-image-container {
+  position: relative;
   box-sizing: border-box;
   /* height: 310px; */
   width: 235px;
   aspect-ratio: 3/4;
   overflow: hidden;
+}
+.new-alert {
+  z-index: 10;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 2px 10px;
+  border-radius: 80px;
+  color: white;
+  background-color: red;
 }
 .product-image {
   overflow: hidden;

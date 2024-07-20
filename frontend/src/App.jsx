@@ -95,6 +95,7 @@ function App() {
               {product_list.map(product => (
                 <NavLink to={`/product/${product.prod_id}`} className="product-card" target='_blank' key={product.prod_id}>
                   <div className="product-image-container">
+                    {product.new_arrival && <span className="new-alert">New</span>}
                     <img className="product-image" src={product.prod_thumb} alt="" />
                   </div>
                   <div className="product-info">
