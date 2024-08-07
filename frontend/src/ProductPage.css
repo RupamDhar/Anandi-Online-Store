@@ -10,7 +10,7 @@
     padding: 16px 50px;
     height: 80px;
     width: 100%;
-    box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px rgb(141, 141, 141);
     background-color: white;
 }
 .fa-arrow-left {

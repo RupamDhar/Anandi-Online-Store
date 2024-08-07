@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 2px #797979;
   background-color:white;
 }
 
@@ -322,7 +322,7 @@ label {
   height: 95%;
   width: 2px;
   border-radius: 2px;
-  background-color: rgba(143, 143, 143, 0.568);
+  background-color: #c1c1c191;
 }
 
 
